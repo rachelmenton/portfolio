@@ -1,0 +1,226 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a {
+	color: purple;
+}
+
+a:visited  {
+	text-decoration: none;
+	color: violet;
+}
+
+.container {
+	background-color: #F3F3F3;
+	width: 85%;
+	margin: auto;
+	padding-bottom: 1%;
+	border: 1px solid black;
+	margin-top: -10px;
+	
+}
+
+
+/* HEADER (JUMBOTRON)
+-------------------------------------------------- */
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* NAV BAR
+-------------------------------------------------- */
+
+.navbar {
+	background-color: #F9E5FF;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+	border-bottom: 2px dashed black;
+	margin-top: -20px;
+	
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 470px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 470px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 470px;
+}
+
+
+
+
+/* 3 MODULE CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+.marketing h2 {
+  font-weight: normal;
+  font-family: "Courier New", Courier, monospace;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  
+}
+
+/* FOOTER
+-------------------------------------------------- */
+
+footer {
+	height: 140px;
+	padding: 2%;
+	margin-top: 5%;
+	background-color: #F9E5FF;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+	border-top: 2px dashed black;
+	
+	
+}
+
+/* ABOUT ME PAGE
+-------------------------------------------------- */
+.jumbotron2 {
+  text-align: center;
+  background-color: transparent;
+  font-size: 15px;
+  font-family:"Courier New", Courier, monospace;
+  
+}
+.jumbotron2 .btn {
+  padding: 14px 24px;
+  font-size: 18px;
+}
+
+
+.containermain {
+	background-color: #F3F3F3;
+	width: 80%;
+	margin: auto;
+	padding-left: 6%;
+	padding-right: 6%;
+	padding-bottom: 6%;
+	padding-top: 2%;
+	border: 1px solid black;
+}
+
+/* PHOTOGRAPHY PAGE
+-------------------------------------------------- */
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+
+.photocontainer {
+	background-color: #F3F3F3;
+	width: 96%;
+	margin: auto;
+	padding: 2%;
+	border: 1px solid black;
+	margin-top: 15px;
+	font-family:"Courier New", Courier, monospace;
+	text-align: center;
+	
+}
+
+/* CONTACT PAGE
+-------------------------------------------------- */
+
+
+.intro-text {
+    text-transform: lowercase;
+}
+
+.contactcontainer {
+	background-color: #F3F3F3;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 4%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border: 1px solid black;
+	margin-top: 15px;
+	font-family:"Courier New", Courier, monospace;
+	text-align: center;
+	font-size: 16px;
+	
+}
+
+/* MEDIA PAGE
+-------------------------------------------------- */
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.mediacontainer {
+	background-color: #F3F3F3;
+	width: 90%;
+	margin: auto;
+	padding: 4%;
+	border: 1px solid black;
+	margin-top: 15px;
+	font-family:"Courier New", Courier, monospace;
+	text-align: center;
+	font-size: 16px;
+	
+}
+
+
+/* DESIGN PAGE
+-------------------------------------------------- */
+
+.designcontainer {
+	background-color: #F3F3F3;
+	width: 90%;
+	margin: auto;
+	padding: 4%;
+	border: 1px solid black;
+	margin-top: 15px;
+	font-family:"Courier New", Courier, monospace;
+	text-align: center;
+	font-size: 16px;
+	
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
